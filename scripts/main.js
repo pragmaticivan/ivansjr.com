@@ -1,0 +1,1 @@
+"use strict";!function(e){e(document).ready(function(){e("#container").SecretNav({navSelector:".side-menu",openSelector:".open-menu",position:"left"})})}(jQuery);
