@@ -1,0 +1,120 @@
+// bower:scss
+// endbower
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: #fafafa;
+  font-family: 'Lato', sans-serif;
+  color: #333;
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.sidebar {
+  background: #5c4b77;
+  width: 25%;
+  height: 100%;
+  position: relative;
+}
+
+.logo {
+  width: 60%;
+  margin: 60px 10%;
+}
+
+.info {
+  padding: 0 0 0 10%;
+  ul {
+    padding: 200px 0 0 0;
+    li {
+      list-style: none;
+      color: #ffffff;
+      font-weight: 300;
+      font-size: 25px;
+      padding: 2px 0;
+      span {
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.personal-picture {
+  position: absolute;
+  height: 80%;
+  top: 10%;
+  left: 90%;
+  -webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.42);
+  -moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.42);
+  box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.42);
+  img {
+    height: 100%;
+  }
+}
+
+.about {
+  width: 40%;
+  padding-right: 20px;
+  float: right;
+
+  h1 {
+    font-size: 80px;
+    font-weight: 800;
+    padding: 0 2px 0 0;
+    margin: 180px 0 0 0;
+    background: #a6629d;
+    color: #fff;
+    display: inline-block;
+  }
+  h2 {
+    font-size: 60px;
+    padding: 0;
+    margin: 40px 0 0 0;
+    color: #43375b;
+  }
+
+  .bio {
+    font-size: 18px;
+    color: #43375b;
+    line-height: 24px;
+  }
+}
+
+
+.social-footer {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    li {
+      display: inline-block;
+      width: 50px;
+      margin: 0 2px;
+      a {
+        cursor: pointer;
+        font-size: 25px;
+        display: block;
+        color: #ffffff;
+        padding: 6px 0;;
+        transition: background-color 0.5s ease;
+        &:hover {
+          background: #8f759f;
+        }
+      }
+    }
+  }
