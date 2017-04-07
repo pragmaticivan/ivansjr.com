@@ -172,7 +172,9 @@ gulp.task('build', ['lint', 'html', 'images', 'fonts', 'extras'], () => {
 
 gulp.task('deploy', function() {
   return gulp.src('./dist/**/*')
-    .pipe(ghPages());
+    .pipe(ghPages({
+      branch: 'wedeploy'
+    }));
 });
 
 gulp.task('default', () => {
