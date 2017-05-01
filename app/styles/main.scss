@@ -45,8 +45,15 @@ body {
       font-weight: 300;
       font-size: 25px;
       padding: 2px 0;
-      span {
+      a {
         font-weight: bold;
+        color: #ffffff;
+        text-decoration: none;
+      }
+      &:hover {
+        a {
+          color: #f24242;
+        }
       }
     }
   }
@@ -118,3 +125,51 @@ body {
       }
     }
   }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    float: left;
+    padding: 20px 0 100px 0;
+    text-align: center;
+  }
+
+  .logo {
+    width: 70%;
+    text-align: center;
+    margin: 0;
+    display: inline-block;
+  }
+
+  .about {
+    width: 100%;
+    float: left;
+    padding: 0;
+    text-align: center;
+    h1 {
+      margin: 40px 0;
+      text-align: center;
+      display: inline-block;
+    }
+    h2 {
+      margin: 0;
+      font-size: 50px;
+    }
+    .bio {
+      padding: 10px 20px;
+    }
+  }
+
+  .info {
+    padding: 0;
+    ul {
+      padding: 20px 0 0 0;
+    }
+  }
+
+  .personal-picture {
+    display: none;
+  }
+}
