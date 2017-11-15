@@ -1,4 +1,3 @@
 {
-	"id": "website",
-	"image": "wedeploy/hosting:0.0.1"
+	"id": "website"
 }
